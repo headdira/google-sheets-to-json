@@ -5,10 +5,10 @@ Este projeto permite extrair dados de múltiplas abas de uma planilha do Google 
 
 ## Funcionalidades
 
-- Autenticação com a API do Google Sheets.
-- Extração de dados de abas selecionadas de uma planilha.
-- Correção de caracteres especiais.
-- Geração de um arquivo JSON com os dados extraídos.
+- Autenticação com a API do Google Sheets
+- Extração de dados de abas selecionadas de uma planilha
+- Correção de caracteres especiais
+- Geração de um arquivo JSON com os dados extraídos
 
 ## Requisitos
 
@@ -21,7 +21,7 @@ Este projeto permite extrair dados de múltiplas abas de uma planilha do Google 
    ```bash
    git clone https://github.com/headdira/google-sheets-to-json.git
    ```
-   
+
 2. Instale as dependências:
    ```bash
    pip install gspread oauth2client
@@ -40,10 +40,15 @@ Este projeto permite extrair dados de múltiplas abas de uma planilha do Google 
 
 ## Estrutura do Projeto
 
-- `app.py`: Script principal para a extração dos dados e geração do JSON.
-- `credentials.json`: Arquivo de credenciais da API do Google (não incluído no repositório).
+- `app.py`: Script principal para a extração dos dados e geração do JSON
+- `credentials.json`: Arquivo de credenciais da API do Google (não incluído no repositório)
 
 ## Licença
 
 Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 ```
+
+As melhorias incluem:
+- Remoção de pontuação desnecessária nas listas
+- Melhor formatação de código e instruções
+- Correção de pequenos detalhes para maior clareza
