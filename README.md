@@ -47,8 +47,3 @@ Este projeto permite extrair dados de múltiplas abas de uma planilha do Google 
 
 Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 ```
-
-As melhorias incluem:
-- Remoção de pontuação desnecessária nas listas
-- Melhor formatação de código e instruções
-- Correção de pequenos detalhes para maior clareza
